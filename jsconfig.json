@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 절대 경로의 기준: 현재 프로젝트 루트
+    "paths": {
+      "@/*": ["./*"] // "@/components/Button" → "./components/Button"
+    },
+    "jsx": "preserve", // JSX 코드 그대로 유지
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": ["next-env.d.ts", "**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
