@@ -1,9 +1,10 @@
-import Navigation from "./../components/navigation";
+export const metadata = {
+  title: "Home",
+};
 
 export default function Tomato() {
   return (
     <div>
-      <Navigation />
       <h1>Hello</h1>
     </div>
   );
